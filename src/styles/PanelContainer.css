@@ -1,0 +1,23 @@
+.panel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 2rem 2rem;
+  width: 100vw;
+  height: 500px;
+  border: 1px solid;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.panel-container img {
+  position: absolute;
+  bottom: 0px; /* Adjust the value to position the image near the border */
+  left: 50%; /* Position the image horizontally in the center */
+}
